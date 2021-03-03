@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Student Dashboard</title>
+</head>
+<body>
+    <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item ml-3" href="https://bulma.io">
+            <span class="is-size-4 has-text-weight-bold">Attendance</span>
+          </a>
+      
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item">
+              News
+            </a>
+      
+            <a class="navbar-item">
+              Exhibitions
+            </a>
+      
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                More
+              </a>
+      
+              <div class="navbar-dropdown">
+                <a class="navbar-item">
+                  Classes
+                </a>
+                <a class="navbar-item">
+                  Lecturers
+                </a>
+                <a class="navbar-item">
+                  Attendance
+                </a>
+                <hr class="navbar-divider">
+                <a class="navbar-item">
+                  Report an issue
+                </a>
+              </div>
+            </div>
+          </div>
+      
+          <div class="navbar-end">
+            <div class="navbar-item">
+                <div class="field has-addons mr-4 mt-2">
+                    <div class="control">
+                      <input class="input is-small" type="text" placeholder="Find a repository">
+                    </div>
+                    <div class="control">
+                      <a class="button is-info is-small">
+                        Search
+                      </a>
+                    </div>
+                  </div>
+                <span><i class="fas fa-plus mr-3 is-hoverable"></i></span>
+                <figure class="media-left">
+                    <p class="image is-32x32">
+                      <img class="is-rounded" src="https://bulma.io/images/placeholders/32x32.png">
+                    </p>
+                </figure>
+                
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="container is-fullhd">
+          <div class="columns">
+              <div class="column is-2 nav-side-color">
+
+              
+        <aside class="menu mt-4 ml-4 ">
+            <p class="menu-label">
+              General
+            </p>
+            <ul class="menu-list">
+              <li><a>Dashboard</a></li>
+              <li><a>Customers</a></li>
+            </ul>
+            <p class="menu-label">
+              Administration
+            </p>
+            <ul class="menu-list">
+              <li><a>Team Settings</a></li>
+              <li>
+                <a class="is-active">Manage Your Team</a>
+                <ul>
+                  <li><a>Members</a></li>
+                  <li><a>Plugins</a></li>
+                  <li><a>Add a member</a></li>
+                </ul>
+              </li>
+              <li><a>Invitations</a></li>
+              <li><a>Cloud Storage Environment Settings</a></li>
+              <li><a>Authentication</a></li>
+            </ul>
+            <p class="menu-label">
+              Transactions
+            </p>
+            <ul class="menu-list">
+              <li><a>Payments</a></li>
+              <li><a>Transfers</a></li>
+              <li><a>Balance</a></li>
+            </ul>
+          </aside>
+        </div>
+        <div class="column">
+          <div class="tile is-ancestor mt-4 ml-4 mr-4">
+            <div class="tile is-vertical is-8">
+              <div class="tile">
+                <div class="tile is-parent is-vertical">
+                  <article class="tile is-child box">
+                    <!-- Put any content you want -->
+                    <p class="title is-4">Students</p>
+                    <p class="subtitle is-6">Students' information</p>
+                    <article class="message is-success has-text-centered">
+                      <div class="message-header">
+                        <p></p>Total students registered</p>
+                      </div>
+                      <div class="message-body has-text-centered">
+                        130000
+                      </div>
+                    </article>
+                  </article>
+                  <article class="tile is-child box">
+                    <!-- Put any content you want -->
+                    <p class="title is-4">Lecturers</p>
+                    <p class="subtitle is-6">Lecturers' information</p>
+                    <article class="message is-success has-text-centered">
+                      <div class="message-header">
+                        <p></p>Total lecturers registered</p>
+                      </div>
+                      <div class="message-body has-text-centered">
+                        130000
+                      </div>
+                    </article>
+                  </article>
+                </div>
+                <div class="tile is-parent">
+                  <article class="tile is-child box">
+                    <!-- Put any content you want -->
+                    <p class="title is-4">Title 3</p>
+                    <p class="subtitle is-6">Subtitle 5</p>
+                    <div class="box">
+                      <article class="media">
+                        
+                        <div class="media-content">
+                          <div class="content">
+                            <p>
+                              <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>
+                              <br>
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+                            </p>
+                          </div>
+                         
+                        </div>
+                        
+                      </article>
+                    </div>
+                  </article>
+                </div>
+              </div>
+              <div class="tile is-parent">
+                <article class="tile is-child box">
+                  <!-- Put any content you want -->
+                  <p class="title is-4">News</p>
+                  <p class="subtitle is-6">Daily news!</p>
+                  <hr>
+                  <article class="media">
+                        
+                    <div class="media-content">
+                      <div class="content">
+                        <p>
+                          <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>
+                          <br>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+                        </p>
+                      </div>
+                     
+                    </div>
+                    
+                  </article>
+                  <article class="media">
+                        
+                    <div class="media-content">
+                      <div class="content">
+                        <p>
+                          <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>
+                          <br>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+                        </p>
+                      </div>
+                     
+                    </div>
+                    
+                  </article>
+                  <article class="media">
+                        
+                    <div class="media-content">
+                      <div class="content">
+                        <p>
+                          <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>
+                          <br>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+                        </p>
+                      </div>
+                     
+                    </div>
+                    
+                  </article>
+                </article>
+              </div>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child box">
+                <!-- Put any content you want -->
+                <p class="title is-4">Announcement</p>
+                <p class="subtitle is-6">The announcement made by the university</p>
+                
+                <article class="media">
+                        
+                  <div class="media-content">
+                    <div class="content">
+                      <p>
+                        <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small> <span class="tag is-link is-danger">Urgent</span>
+                        <br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+                      </p>
+                    </div>
+                   
+                  </div>
+                  
+                </article>
+                <article class="media">
+                        
+                  <div class="media-content">
+                    <div class="content">
+                      <p>
+                        <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small> <span class="tag is-link is-normal">Normal</span>
+
+                        <br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+                      </p>
+                    </div>
+                   
+                  </div>
+                  
+                </article>
+              </article>
+            </div>
+          </div>
+        </div>
+    </div>
+      </div>
+      
+      <footer class="footer">
+        <div class="content has-text-centered">
+          <p>
+            <strong>Attendance</strong> by <a href="$">Afiq Syazwan</a>. The source code is licensed by
+            <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. 
+          </p>
+        </div>
+      </footer>
+</body>
+</html>
