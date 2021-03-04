@@ -53,3 +53,7 @@ body{
   .nav-side-color{
     background-color: rgba(136, 136, 136, 0.356);
   }
+
+  .padding-zero{
+    padding: 0;
+  }
